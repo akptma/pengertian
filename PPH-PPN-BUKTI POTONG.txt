@@ -1,0 +1,22 @@
+INVOICE DENGAN NOMINAL -> 999.000 (INCLUDE PPN)
+                PPN    -> 99.000 (PPN 11%) 
+                DPP    -> 900.000 (DASAR PENGENAAN PAJAK / HARGA ASLI)
+
+KITA BAYAR KE PENYEDIA -> 981.000 (DPP + PPH 23 (2%))
+                PPH 23 -> 18.000 (DPP - PPH 23 (2%))
+
+------------------------------------------------------------------------
+
+ALUR 
+
+    -> TERIMA INVOICE DARI PENYEDIA 
+        -> KITA LAKUKAN PEMBAYARAN 
+            -> KIRIM BUKTI PEMBAYARAN KE PENYEDIA
+
+    -> PENYEDIA KIRIM INVOICE PAID DAN FAKTUR PAJAK
+        -> KITA KIRIM BUKTI POTONG
+
+TRANSAKSI SELESAI 
+------------------------------------------------------------------------
+
+                      
